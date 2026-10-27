@@ -4,7 +4,7 @@
 (function () {
   "use strict";
 
-  var GA_ID = "G-JQCBX0WBBV"; /* Mätnings-ID från Google Analytics */
+  var GA_ID = "G-1S11HQHQNH"; /* Mätnings-ID från Google Analytics */
   var KEY = "refraim-consent";
 
   window.dataLayer = window.dataLayer || [];
