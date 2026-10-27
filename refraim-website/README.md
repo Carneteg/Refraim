@@ -1,6 +1,6 @@
 # refraim-website
 
-Webbplatsen för **Refraim AB**. Fem sidor, helt statisk: ren HTML, ett litet skript och bilder. Det finns inget byggsteg, inga beroenden, inga cookies och ingen spårning.
+Webbplatsen för **Refraim AB**. Fem sidor, helt statisk: ren HTML, ett litet skript och bilder. Det finns inget byggsteg och inga beroenden. Besöksstatistik via Google Analytics 4 (`assets/analytics.js`, mätnings-ID G-JQCBX0WBBV) laddas bara efter samtycke i cookie-bannern; se `/integritet`.
 
 | Sida | Adress | Fil |
 |---|---|---|
@@ -89,7 +89,7 @@ Det här görs **inte** automatiskt. Gör det först när `.vercel.app`-adressen
 
 ## Formulären
 
-Formulären på `/ai-gapet`, `/anbud` och `/lokala-nyheter` öppnar besökarens e-postprogram med ett ifyllt mejl till **tobias@refraim.se**. Inget lagras på webbplatsen, och därför behövs ingen server och ingen cookie-banner.
+Formulären på `/ai-gapet`, `/anbud` och `/lokala-nyheter` öppnar besökarens e-postprogram med ett ifyllt mejl till **tobias@refraim.se**. Inget lagras på webbplatsen, och därför behövs ingen server. Cookie-bannern gäller enbart Google Analytics.
 
 Nackdelen är att det kräver att besökaren har ett e-postprogram. Vill du att formulären skickas direkt från sidan, koppla in en formulärtjänst som [Formspree](https://formspree.io):
 
