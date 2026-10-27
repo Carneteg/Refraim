@@ -1,6 +1,6 @@
 # refraim-website
 
-Webbplatsen för **Refraim AB**. Fem sidor, helt statisk: ren HTML, ett litet skript och bilder. Det finns inget byggsteg och inga beroenden. Besöksstatistik via Google Analytics 4 (`assets/analytics.js`, mätnings-ID G-JQCBX0WBBV) laddas bara efter samtycke i cookie-bannern; se `/integritet`.
+Webbplatsen för **Refraim AB**. Fem sidor, helt statisk: ren HTML, ett litet skript och bilder. Det finns inget byggsteg och inga beroenden. Besöksstatistik via Google Analytics 4 (`assets/analytics.js`, mätnings-ID G-JQCBX0WBBV) laddas bara efter samtycke i cookie-bannern; se `/integritet`. Dessutom cookiefri, realtidsnära totalstatistik via Vercel Web Analytics (`/_vercel/insights/script.js`, slås på i Vercel-projektet).
 
 | Sida | Adress | Fil |
 |---|---|---|
