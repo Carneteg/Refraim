@@ -29,7 +29,7 @@
 
   var loaded = false;
   function loadGA() {
-    if (loaded || GA_ID.indexOf("G-") !== 0 || GA_ID.indexOf("X") > -1) return;
+    if (loaded || GA_ID === "G-XXXXXXXXXX") return;
     loaded = true;
     gtag("consent", "update", { analytics_storage: "granted" });
     var s = document.createElement("script");
