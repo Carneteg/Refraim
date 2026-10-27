@@ -1,4 +1,4 @@
-/* Refraim AB – webbplatsens skript. Inga beroenden, inga cookies, ingen spårning. */
+/* Refraim AB – webbplatsens skript. Inga beroenden. Statistik (Google Analytics) hanteras i analytics.js och laddas bara efter samtycke. */
 (function () {
   "use strict";
 
